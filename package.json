@@ -1,0 +1,28 @@
+{
+  "name": "react-native-accordion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ybalaev1/react-native-accrodion.git",
+  "author": "ybalaev1 <y.balaev@ya.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.1",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "tsc",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  }
+}
